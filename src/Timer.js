@@ -48,6 +48,9 @@ class Timer extends Component {
     this.props.removeTimer(this.props.id)
   }
 
+  componentWillUnmount() {
+    clearInterval(this.interval)
+  }
 
 }
 
