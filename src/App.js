@@ -12,9 +12,7 @@ class App extends Component {
 
   //Your code here:
   componentDidMount() {
-    this.setState({
-      timerIDs: this.handleAddTimer
-    })
+    this.handleAddTimer
   }
 
 
